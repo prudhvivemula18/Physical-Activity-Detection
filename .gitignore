@@ -1,0 +1,39 @@
+__pycache__/
+*.pkl
+*.h5
+*.joblib
+*.csv
+*.ipynb_checkpoints
+data/
+results/
+.env
+.DS_Store
+<<<<<<< HEAD
+.venv/
+__pycache__/
+results/
+*.pyc
+=======
+# Ignore virtual environment
+.venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore saved models or results
+results/
+*.pkl
+>>>>>>> 98cc8363 (Add .gitignore to ignore .venv, cache, and results)
+# Python virtual environment
+.venv/
+__pycache__/
+
+# Data / results
+results/
+data/processed/
+data/raw/
+
+# VSCode / IDE
+.vscode/
+*.pyc
