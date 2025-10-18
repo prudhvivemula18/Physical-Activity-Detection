@@ -60,17 +60,17 @@
    git clone https://github.com/prudhvivemula18/Physical-Activity-Detection.git
 
 
-Install required packages:
+## Install required packages:
 
 pip install -r requirements.txt
 
 
-Run Python scripts to train or test models:
+## Run Python scripts to train or test models:
  python src/models/baseline_sklearn.py
  python src/models/deep_lstm_cnn.py
 
 
-Skills Gained
+## Skills Gained
 
 Python programming and machine learning pipeline development
 
@@ -82,8 +82,8 @@ Deep learning with CNN and LSTM
 
 Version control using Git and GitHub
 
-Folder Structure
-Physical-Activity-Detection/
+## Folder Structure
+**Physical-Activity-Detection/**
 │
 ├── src/                    # Source code for models, data loading, and evaluation
 ├── data/                   # Dataset folder
