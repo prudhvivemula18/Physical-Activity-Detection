@@ -61,15 +61,17 @@
 
 
 ## Install required packages:
-
-pip install -r requirements.txt
+  ```bash
+  pip install -r requirements.txt
+  ```
 
 
 ## Run Python scripts to train or test models:
- python src/models/baseline_sklearn.py
- python src/models/deep_lstm_cnn.py
+  ```bash
+    python src/models/baseline_sklearn.py
+    python src/models/deep_lstm_cnn.py
 
-
+```
 ## Skills Gained
 
 Python programming and machine learning pipeline development
@@ -84,6 +86,7 @@ Version control using Git and GitHub
 
 ## Folder Structure
 **Physical-Activity-Detection/**
+```bash
 │
 ├── src/                    # Source code for models, data loading, and evaluation
 ├── data/                   # Dataset folder
@@ -92,5 +95,5 @@ Version control using Git and GitHub
 ├── requirements.txt        # Required Python packages
 └── README.md               # Project documentation
 
-
+```
 Note: You can replace the UCI HAR dataset with real-time smartphone sensor data by following the same preprocessing steps.
